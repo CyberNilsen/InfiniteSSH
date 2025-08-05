@@ -31,11 +31,11 @@ InfiniteSSH creates a fake SSH server that:
 1. Clone or download this repository
 2. Compile the source code:
    ```cmd
-   gcc -o infinitessh.exe infinitessh.c -lws2_32
+   gcc -o infinitessh.exe ssh.c -lws2_32
    ```
    Or with Visual Studio:
    ```cmd
-   cl infinitessh.c ws2_32.lib
+   cl ssh.c ws2_32.lib
    ```
 
 ## Usage
